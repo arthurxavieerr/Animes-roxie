@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimesRoxie | Início</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+        <!-- header -->
+    <header>
+        <div class="logo">
+            <a href="./">
+                <img src="./assets/LOGO.png">
+            </a>
+        </div>
+        <ul class="menu">
+            <li>
+                <p>Início</p>
+            </li>
+            <li>
+                <p>Calendário</p>
+            </li>
+            <li>
+                <p>Lista de Animes</p>
+            </li>
+        </ul>
+        <div class="search-box">
+            <input type="text" class="input-search" placeholder="Pesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+
+    <!-- slider -->
+
+    <div class="slider">
+        <!-- list Items -->
+        <div class="list">
+            <div class="item active">
+                <img src="image/1.jpg">
+                <div class="content">
+                    <!-- aqui voce pode fazer por api, indexa seu site por outro site,
+                    assim o nome, destaque, descriçao e numeros vem direto de la, nao
+                    precisamos ficar escrevendo sempre sobre o anime -->
+                    <p>destaque da temporada</p>
+                    <h2>Solo Leveling</h2>
+                    <p>
+                        Dez anos atrás, “o Portão” apareceu e conectou o mundo real com o reino da magia e dos monstros. Para combater essas feras vis,
+                         pessoas comuns receberam poderes sobre-humanos e ficaram conhecidas como “Caçadores”. Sung Jin-Woo, de 20 anos, é um desses caçadores, 
+                         mas é conhecido como o “Mais Fraco do Mundo”, devido ao seu poder patético em comparação até mesmo com um mísero E-Rank.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/2.jpg">
+                <div class="content">
+                    <p>destaque da temporada</p>
+                    <h2>Classroom Of The Elite</h2>
+                    <p>
+                        Terceira temporada de Youkoso.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/3.jpg">
+                <div class="content">
+                    <p>destaque da temporada</p>
+                    <h2>Jaku-Chara Tomozaki-kun 2nd Stage</h2>
+                    <p>
+                        Segunda temporada de Jaku Chara Tomozaki-kun.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/43.jpeg">
+                <div class="content">
+                    <p>destaque da temporada</p>
+                    <h2>One Piece</h2>
+                    <p>
+                        Gol D. Roger era conhecido como o "Rei dos Piratas", o ser mais forte e infame que navegou na Grand Line. A captura e execução de Roger pelo Governo 
+                        Mundial trouxe uma mudança em todo o mundo. Suas últimas palavras antes de sua morte revelaram a existência do maior tesouro do mundo, One Piece...
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/5.jpg">
+                <div class="content">
+                    <p>destaque da temporada</p>
+                    <h2>Overlord</h2>
+                    <p>
+                        A hora final do popular jogo de realidade virtual Yggdrasil chegou. No entanto, Momonga, um mago poderoso e mestre da guilda negra Ainz Ooal Gown, 
+                        decide passar seus últimos momentos no jogo quando os servidores começam a fechar. Para sua surpresa, apesar de o relógio ter batido meia-noite, 
+                        Momonga ainda está totalmente consciente de seu personagem e, além disso, os personagens não jogadores parecem ter desenvolvido personalidades próprias!
+                         Confrontado com esta situação anormal, Momonga comanda seus servos leais para ajudá-lo a investigar e assumir o controle deste novo mundo, na esperança 
+                         de descobrir o que causou esse desenvolvimento e se pode haver outros na mesma situação.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- button arrows -->
+        <div class="arrows">
+            <button class="prev-left" id="prev"><</button>
+            <button class="next-right" id="next">></button>
+        </div>
+        <!-- thumbnail -->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="image/1.jpg">
+                <div class="content">
+                    Solo Leveling
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/2.jpg">
+                <div class="content">
+                    Classroom Of The Elite
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/3.jpg">
+                <div class="content">
+                    Jaku-Chara Tomozaki-kun 2nd Stage
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/43.jpeg">
+                <div class="content">
+                    One piece
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/5.jpg">
+                <div class="content">
+                    Overlord
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo2">
+        <div class="novos">
+            <div class="space-title">
+                <p>Novos Episódios</p>
+                <i>
+                    Ver mais
+                    <i class="fa-solid fa-plus"></i>
+                </i>
+            </div>
+            <div class="cards-content">
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cards-content">
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cards-content">
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cards-content">
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+                <div class="item-card">
+                    <a class="card-screen" href="#">
+                        <div class="card">
+                            <img src="./assets/thumb.jpg">
+                        </div>
+                        <div class="title-content">
+                            <a href="#">
+                                <span>Titulo do Anime</span>
+                            </a>
+                        </div>
+                        <div class="ep-number-content">
+                            <a href="#">
+                                <span>Episódio 1</span>
+                                <span class="tag-full">FULL-HD</span>
+                                <span class="tag-leg">LEG</span>
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo3">
+        <div class="calendar_content">
+            <div class="header_calendar">
+                <h3>Calendário da Semana</h3>
+            </div>
+            <div class="date_calendar">
+                <div class="dia_semana_1">
+                    <span id="meuSpan" onclick="mudarCor(this)">Segunda-feira</span>
+                </div>
+                <div class="dia_semana_2">
+                    <span id="meuSpan" onclick="mudarCor(this)">Terça-feira</span>
+                </div>
+                <div class="dia_semana_3">
+                    <span id="meuSpan" onclick="mudarCor(this)">Quarta-feira</span>
+                </div>
+                <div class="dia_semana_4">
+                    <span id="meuSpan" onclick="mudarCor(this)">Quinta-feira</span>
+                </div>
+                <div class="dia_semana_5">
+                    <span id="meuSpan" onclick="mudarCor(this)">Sexta-feira</span>
+                </div>
+                <div class="dia_semana_6">
+                    <span id="meuSpan" onclick="mudarCor(this)">Sabádo</span>
+                </div>
+                <div class="dia_semana_7">
+                    <span id="meuSpan" onclick="mudarCor(this)">Domingo</span>
+                </div>
+            </div>
+            <div class="calendar">
+                <li>
+                    <div class="poster_calendar">
+                        <img src="./image/poster.jpg">
+                    </div>
+                    <div class="title_anime_calendar">
+                        <h3>Solo leveling</h3>
+                        <span>|</span>
+                        <p>TV - Legendado</p>
+                    </div>
+                    <div class="details_calendar">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="poster_calendar">
+                        <img src="./image/poster.jpg">
+                    </div>
+                    <div class="title_anime_calendar">
+                        <h3>Solo leveling</h3>
+                        <span>|</span>
+                        <p>TV - Legendado</p>
+                    </div>
+                    <div class="details_calendar">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="poster_calendar">
+                        <img src="./image/poster.jpg">
+                    </div>
+                    <div class="title_anime_calendar">
+                        <h3>Solo leveling</h3>
+                        <span>|</span>
+                        <p>TV - Legendado</p>
+                    </div>
+                    <div class="details_calendar">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="poster_calendar">
+                        <img src="./image/poster.jpg">
+                    </div>
+                    <div class="title_anime_calendar">
+                        <h3>Solo leveling</h3>
+                        <span>|</span>
+                        <p>TV - Legendado</p>
+                    </div>
+                    <div class="details_calendar">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="poster_calendar">
+                        <img src="./image/poster.jpg">
+                    </div>
+                    <div class="title_anime_calendar">
+                        <h3>Solo leveling</h3>
+                        <span>|</span>
+                        <p>TV - Legendado</p>
+                    </div>
+                    <div class="details_calendar">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>Detalhes</span>
+                    </div>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="conteudo4">
+        <div class="end_add_content">
+            <div class="text_add"><h4>Últimos adicionados</h4></div>
+            <div class="cards_add_content">
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="cards_add_content">
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card_add">
+                    <div class="poster">
+                        <img src="./image/poster.2.jpg" alt="poster2">
+                    </div>
+                    <div class="details">
+                        <h3>Dosanko Gal wa Namara Menkoi</h3>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star'></i>
+                            <i class='bx bx-star'></i>
+                            <span>3/5</span>
+                        </div>
+                        <div class="tags">
+                            <span>Sci-fi</span>
+                            <span>Action</span>
+                        </div>
+                        <div class="info">
+                            <p>Flocos de neve não são as únicas coisas caindo em Hokkaido - também estão caindo os queixos 
+                                de todo mundo… graças às garotas incrivelmente fofas que estão transformando o norte congelado
+                                 em um terreno cheio de vida com moda e diversão. Prepare-se para uma tempestade de inverno 
+                                  de risadas, amor e looks incríveis, enquanto essas garotas provam que serem fofas está em dia com todas
+                                   as estações. Aqui, o frio encontra a moda!</p>
+                        </div>
+                        <div class="cast">
+                            <h4>Elenco Principal</h4>
+                            <ul>
+                                <li><img src="./image/1.webp" alt="img1"></li>
+                                <li><img src="./image/2.webp" alt="img2"></li>
+                                <li><img src="./image/3.webp" alt="img3"></li>
+                                <li><img src="./image/4.webp" alt="img4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer><p>© 2024 by AnimesRoxie. All Rights Reserved. Developed By <span>Danariuss</span> & <span>Saintt</span></p></footer>
+    <script src="app.js"></script>
+</body>
+</html>
